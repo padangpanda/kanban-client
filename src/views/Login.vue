@@ -95,7 +95,7 @@ export default {
       axios({
         method: 'POST',
         url: `${this.baseUrl}/loginGoogle`,
-        data: {idToken}
+        data: {id_token}
       })
       .then(({data}) => {
         localStorage.setItem('access_token', data.access_token)

@@ -14,7 +14,8 @@ export default {
     name: "App",
     data() {
         return {
-            baseUrl: "https://immense-journey-98337.herokuapp.com/",
+            baseUrl: "https://immense-journey-98337.herokuapp.com",
+            // baseUrl: "http://localhost:3000",
             currentPage: "login",
             tasks: [],
             category: []
